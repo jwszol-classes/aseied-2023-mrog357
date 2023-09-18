@@ -32,6 +32,7 @@ sc.install_pypi_package("matplotlib")
 6. **applyColors** This function takes pixel data and a set of thresholds. It parallelizes pixels into an RDD (Resilient Distributed Dataset) using SparkContext.
 Maps thresholds to each element of RDD using 'map', attempting to assign colors to pixels in the input data based on the thresholds.
 Finally, it collects the mapping results and returns them.
-7. **extractX/YCoordinate** 
+7. **extractX/YCoordinate** is used to extract the X index from a file name or path and convert it to an integer
 # Results
+![EuropeMap](EuropeMap.png)
 
