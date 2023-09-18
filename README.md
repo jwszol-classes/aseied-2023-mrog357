@@ -35,4 +35,6 @@ Finally, it collects the mapping results and returns them.
 7. **extractX/YCoordinate** is used to extract the X index from a file name or path and convert it to an integer
 # Results
 ![EuropeMap](EuropeMap.png)
-
+# Authors
+Maciej Rogowicz
+Mateusz Łangowski
