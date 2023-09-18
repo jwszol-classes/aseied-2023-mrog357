@@ -36,5 +36,5 @@ Finally, it collects the mapping results and returns them.
 # Results
 ![EuropeMap](EuropeMap.png)
 # Authors
-Maciej Rogowicz
-Mateusz Łangowski
+* Maciej Rogowicz
+* Mateusz Łangowski
