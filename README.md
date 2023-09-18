@@ -12,18 +12,18 @@ sc.install_pypi_package("numpy")
 sc.install_pypi_package("matplotlib")
 ```
 
-### Dataset
-Mapzen Terrain Tiles provides worldwide base map coverage sourced from open data projects with several different data formats and varying levels of processing.
-The following formats are available:
-* `terrarium` with extension `png` in Web Mercator projection, contains raw elevation data in meters, split into the RGB channels, with 16 bits of integer and 8 bits of fraction
-* `normal` with extension `png` in Web Mercator projection, tiles are processing elevation data with the RGB values corresponding to the direction the pixel “surface” is facing (its XYZ vector)
-* `geotiff` with extension `tif` in Web Mercator projection, tiles are raw elevation data suitable for analytical use and are optimized to reduce transfer costs
-* `skadi` with extension `hgt` in unprojected latlng, tiles are raw elevation data in unprojected WGS84 (EPSG:4326) 1°x1° tiles, used by the Mapzen Elevation lookup service
+
 
 
 # Code
 
 ### Overall idea
+1. Download of necessary data from the database
+2. Sorting data by coordinates
+3. Calculating the altitude of every point
+4. Calculating the altitude change trend
+5. Presenting data on the map
+#### Functions
 1. 
 
 # Results
